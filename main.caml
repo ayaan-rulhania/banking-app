@@ -1,0 +1,13 @@
+Create a new window named "Index":
+  Set the title to "Your Bank"
+  Create a new chart named "Balance":
+    Show User_Account_Data
+    Set the type to stocks chart.
+
+If (transaction):
+  If (deductive, amount):
+    deduct(amount)
+  Otherwise:
+    increment(amount)
+Otherwise:
+  return null
