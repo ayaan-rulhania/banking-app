@@ -1,3 +1,5 @@
+from {/logic.caml} import {deduct/increment}
+
 Create a new window named "Index":
   Set the title to "Your Bank"
   Create a new chart named "Balance":
