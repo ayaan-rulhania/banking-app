@@ -1,0 +1,16 @@
+import security_login as login
+
+Define function "open_bank" which takes (x, y):
+  login to [imported from main.camlapp]
+    while...
+      block x
+      block y
+
+Define function "login_screen" which does:
+  Create form named "index":
+    Assign (new row:
+      "Username" : ______________) to user
+    Assign (new row:
+      "Password" : ______________) to pass
+  Call function "open_bank" with arguments (user, pass)
+
