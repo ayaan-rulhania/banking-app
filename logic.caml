@@ -1,0 +1,5 @@
+Define function "deduct" which takes (balance, amount):
+  balance = balance - amount
+
+Define function "increment" which takes (balance, amount):
+  balance = balance + amount
