@@ -1,0 +1,9 @@
+from {/login-logic.caml} import {login_screen()}
+
+Create new window named "index":
+  Set the title to "Login".
+  Set the background color to #a38137.
+  Create new button named "index-btn":
+    Display "Login".
+    On click:
+      Call function "login_screen"
